@@ -22,7 +22,6 @@ class ViewController: UIViewController {
         let note = Note(context: context)
         note.body = "Body"
         note.title = "Title"
-//        note.img = NS
         
         do{
             try context.save()
